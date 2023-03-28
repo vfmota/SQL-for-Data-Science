@@ -10,4 +10,12 @@ select FirstName, LastName, Birthdate, Address, City, State from Employees
 
 -----------------------------------------------------------------
 
---P3 
+--P3 Retrieve all the columns from the Tracks table, but only return 20 rows.
+
+select * from Tracks
+limit 20
+
+------------------------------------------------------------------
+
+
+
